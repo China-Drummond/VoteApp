@@ -1,0 +1,89 @@
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:stretchColumns="1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="帐号："
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:hint="请输入帐号"
+            android:gravity="center"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="密码："
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:hint="请输入密码"
+            android:gravity="center"
+            android:password="true"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="登录"
+            android:textSize="30dp"
+            android:padding="20dp"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/register"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="注册"
+            android:textSize="30dp"
+            android:padding="20dp"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/set_address"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="设置主机IP"
+            android:textSize="30dp"
+            android:padding="20dp"/>
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/examine"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="直接查看投票码"
+            android:textSize="30dp"
+            android:padding="20dp"/>
+
+    </TableRow>
+
+</TableLayout>

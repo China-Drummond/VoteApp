@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drummond.voteapp" >
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" /> <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".CreateVoteActivity"
+            android:label="@string/title_activity_create_vote"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".VoteNumActivity"
+            android:label="@string/title_activity_vote_num" >
+        </activity>
+        <activity
+            android:name=".ExamineActivity"
+            android:label="@string/title_activity_examine" >
+        </activity>
+        <activity
+            android:name=".VoteActivity"
+            android:label="@string/title_activity_vote" >
+        </activity>
+        <activity
+            android:name=".VoteSuccessActivity"
+            android:label="@string/title_activity_vote_success" >
+        </activity>
+        <activity
+            android:name=".InquiryAccountActivity"
+            android:label="@string/title_activity_inquiry_account" >
+        </activity>
+        <activity
+            android:name=".VotePercentActivity"
+            android:label="@string/title_activity_vote_percent" >
+        </activity>
+        <activity android:name=".HttpAddress"/>
+    </application>
+
+</manifest>
